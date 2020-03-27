@@ -13,7 +13,6 @@ routes.get('/ongs', OngContoller.index);
 routes.post('/ongs', OngContoller.create);
 
 routes.get('/profile', ProfileController.index);
-routes.get('/profileId', ProfileController.indexId);
 
 routes.get('/incidents', IncidentController.index);
 routes.post('/incidents', IncidentController.create);

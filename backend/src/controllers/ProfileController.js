@@ -9,14 +9,5 @@ module.exports = {
         .select('*');
 
         return response.json(incidents);
-    },
-    async indexId(request, response) {
-        const id = request.headers.authorization;
-
-        const incidents = await connection('incidents')
-        .where('id', id)
-        .select('*');
-
-        return response.json(incidents);
     }
 } 
