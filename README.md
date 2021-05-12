@@ -1,4 +1,4 @@
-# RocketsetHeger
+# Rocketset Ong - Heger
 
 1º envento na Rocketset foi criadao o Back-end, Front-end e Mobile de uma Ong para animais, em JavaScript.
 
